@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Startseite"
+        android:backgroundTint="#33379e"
+        android:layout_margin="5dp"
+        android:id="@+id/zurueck">
+    </Button>
+
+    <TextView android:id="@+id/neuesSpiel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neues Spiel"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp"
+        android:layout_margin="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="4x4"
+        android:backgroundTint="#33379e"
+        android:id="@+id/vier">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="einfach"
+        android:backgroundTint="#33379e"
+        android:id="@+id/einfach">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#33379e"
+        android:layout_gravity="center_horizontal"
+        android:text="mittel"
+        android:id="@+id/mittel">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#33379e"
+        android:layout_gravity="center_horizontal"
+        android:text="schwer"
+        android:id="@+id/schwer">
+    </Button>
+
+
+</LinearLayout>

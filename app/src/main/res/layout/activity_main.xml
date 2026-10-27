@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/sudoku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUDOKU"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:layout_margin="100dp"/>
+
+    <Button
+        android:id="@+id/neuesSpiel"
+        android:layout_width="200dp"
+        android:padding="15dp"
+        android:backgroundTint="#33379e"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/sudoku"
+        android:text="Neues Spiel">
+    </Button>
+
+    <Button
+        android:id="@+id/Rankingliste"
+        android:layout_width="200dp"
+        android:padding="15dp"
+        android:backgroundTint="#33379e"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/neuesSpiel"
+        android:text="Rankingliste">
+    </Button>
+</LinearLayout>

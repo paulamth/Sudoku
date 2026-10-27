@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/ueberschrift"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="Glückwunsch!">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schwierigkeit"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_margin="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schwierigkeit"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_margin="20dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zeit"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_margin="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/zeit"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_margin="20dp">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bestzeit"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_margin="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bestzeit"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_margin="20dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Startseite"
+        android:backgroundTint="#33379e"
+        android:layout_marginTop="100dp"
+        android:id="@+id/startseite"
+        android:layout_gravity="center_horizontal">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neues Spiel"
+        android:backgroundTint="#33379e"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/neuesSpiel">
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abbrechen"
+            android:backgroundTint="#33379e"
+            android:layout_margin="5dp"
+            android:id="@+id/return1"></Button>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Schwierigkeit"
+                android:id="@+id/schwierigkeit"
+                android:layout_weight="1"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fehler"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/groesse"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_weight="1"></TextView>
+        </LinearLayout>
+
+        <com.example.sudoku.view.custom.SudokufeldCustomView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_margin="5dp"
+            android:id="@+id/imageViewSpielfeld">
+        </com.example.sudoku.view.custom.SudokufeldCustomView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <Chronometer
+                android:id="@+id/zeit"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"></Chronometer>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pause"
+                android:background="@drawable/ic_pause">
+            </ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/loeschen"
+                android:textSize="13dp"
+                android:backgroundTint="#33379e"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:text="Löschen"></Button>
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="13dp"
+                android:layout_weight="1"
+                android:backgroundTint="#33379e"
+                android:id="@+id/notizen"
+                android:layout_margin="2dp"
+                android:text="Notizen"></Button>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="13dp"
+                android:backgroundTint="#33379e"
+                android:layout_weight="1"
+                android:id="@+id/hinweis"
+                android:layout_margin="2dp">
+            </Button>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/zahlButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
